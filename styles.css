@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 199, 199);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+button {
+    text-align: center;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 16px 0;
+    transition: transform 250ms, border 250ms, font-weight 250ms;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid whitesmoke;
+    font-weight: 700;
+}
+
+.sizeButton {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.doButtons {
+    width: 500px;
+    display: flex;
+    gap: 16px;
+}
+
+#size {
+    background-color: rgb(47, 47, 244);
+    color: whitesmoke;
+    border: 2px solid rgb(93, 93, 201);
+}
+
+#black {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#random {
+    color: rgb(250, 157, 18);
+    background-color: rgb(252, 218, 167);
+    border: 2px solid rgb(250, 157, 18);
+}
+
+#reset {
+    margin-left: auto;
+    color: whitesmoke;
+    background-color: rgb(249, 14, 14);
+    border: 2px solid rgb(244, 60, 60);
+}
