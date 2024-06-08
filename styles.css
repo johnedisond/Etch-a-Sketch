@@ -24,8 +24,6 @@ h1 {
 
 button {
     text-align: center;
-    padding: 12px;
-    border: 2px solid black;
     border-radius: 10px;
     margin: 16px 0;
     transition: transform 250ms, border 250ms, font-weight 250ms;
@@ -34,7 +32,6 @@ button {
 button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    border: 2px solid whitesmoke;
     font-weight: 700;
 }
 
@@ -53,24 +50,37 @@ button:hover {
 #size {
     background-color: rgb(47, 47, 244);
     color: whitesmoke;
-    border: 2px solid rgb(93, 93, 201);
+    border: none;
+    padding: 10px 20px;
 }
 
 #black {
-    color: whitesmoke;
     background-color: black;
-    border: 2px solid black;
+    border: none;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+#erase {
+    background-color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 50%;
 }
 
 #random {
     color: rgb(250, 157, 18);
     background-color: rgb(252, 218, 167);
-    border: 2px solid rgb(250, 157, 18);
+    border: none;
+    padding: 0 10px;
 }
 
-#reset {
+
+#clear {
     margin-left: auto;
     color: whitesmoke;
+    border: none;
     background-color: rgb(249, 14, 14);
     border: 2px solid rgb(244, 60, 60);
+    padding: 0 10px;
 }

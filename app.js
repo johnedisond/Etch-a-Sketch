@@ -38,10 +38,9 @@ function getSize() {
 size.addEventListener("click", () => {
     let size = getSize();
     gridSize(size);
+    resetColors();
 })
 
-
-// resetting sketchpad color to white----------
 
 function resetColors() {
     let divs = container.querySelectorAll("div");
@@ -56,7 +55,10 @@ function resetColors() {
 
 function setColor() {
     if (color === "random") {
-        this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        this.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 
     } else {
         this.style.backgroundColor = color;
