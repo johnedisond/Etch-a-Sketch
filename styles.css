@@ -27,6 +27,7 @@ button {
     border-radius: 10px;
     margin: 16px 0;
     transition: transform 250ms, border 250ms, font-weight 250ms;
+    outline: none;
 }
 
 button:hover {
@@ -38,7 +39,8 @@ button:hover {
 .sizeButton {
     width: 500px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .doButtons {
