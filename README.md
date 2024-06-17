@@ -1,2 +1,3 @@
 # Etch-a-Sketch
-TOP Etch-a-Sketch exercise
+
+A browser based sketchpad inline with the [Project: Etch-a-Sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) of The Odin Project. <br/>
