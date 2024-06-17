@@ -26,12 +26,17 @@ button {
     text-align: center;
     border-radius: 10px;
     margin: 16px 0;
+    cursor: pointer;
     transition: transform 250ms, border 250ms, font-weight 250ms;
     outline: none;
 }
 
 button:hover {
-    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+button:focus {
     transform: scale(1.1);
     font-weight: 700;
 }

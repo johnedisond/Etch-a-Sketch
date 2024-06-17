@@ -88,4 +88,22 @@ addEventListener("keydown", (e) => {
             e.preventDefault();
         }
     }
+    if (e.key === "1") {
+        const btnBlack = document.querySelector("#black");
+        btnBlack.click()
+        btnBlack.focus();
+        btnBlack.classList.add("active");
+
+    } else if (e.key === "2") {
+        const btnErase = document.querySelector("#erase");
+        btnErase.click()
+        btnErase.focus();
+        btnErase.classList.add("active");
+
+    } else if (e.key === "3") {
+        const btnRandom = document.querySelector("#random");
+        btnRandom.click()
+        btnRandom.focus();
+        btnRandom.classList.add("active");
+    }
 })
